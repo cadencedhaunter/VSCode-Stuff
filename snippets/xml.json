@@ -1,0 +1,38 @@
+{
+	// fast node
+	"xmlplace_node" : {
+		"prefix" : "xml:node",
+		"body": [
+			"<$1>",
+			"    $0",
+			"</$1>"
+		],
+		"description": "Create node"
+	},
+
+	// fast document buildup
+	"xmldocumentbuild" : {
+		"prefix": "xml:build",
+		"body": [
+			"<?xml version=\"${1:1.0}\" encoding=\"${2:UTF-8}\"?>",
+			"$3<${4:root}>",
+			"    $0",
+			"</${4:root}>"
+		],
+		"description": "Buildup an XML document"
+	},
+
+	// fast attribute-value pair
+	"xmlattribute" : {
+		"prefix": "xml:att",
+		"body": [
+			"${1:attr}=\"${2:value}\"$0"
+		]
+	},
+
+	// css stylesheet header
+	"xmlstylesheet" : {
+		"prefix": "xml:css",
+		"body": "<?xml-stylesheet type=\"${1:text/css}\" href=\"$2.css\" ?>$0"
+	}
+}
