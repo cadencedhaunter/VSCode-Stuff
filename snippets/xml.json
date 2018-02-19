@@ -1,4 +1,5 @@
 {
+	/* Useful XML snippets */
 	// fast node
 	"xmlplace_node" : {
 		"prefix" : "xml:node",
