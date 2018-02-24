@@ -6,19 +6,19 @@
 
 	"java_shortPublicField" : {
 		"prefix": "+:",
-		"body": "public ${1:type} ${2:name}",
+		"body": "public ${1:type} ${2:name};$0",
 		"description": "Java: Public Field"
 	},
 
 	"java_shortPrivateField" : {
 		"prefix": "-:",
-		"body": "private ${1:type} ${2:name}",
+		"body": "private ${1:type} ${2:name};$0",
 		"description": "Java: Private Field"
 	},
 
 	"java_shortProtectedField" : {
 		"prefix": "/:",
-		"body": "protected ${1:type} ${2:name}",
+		"body": "protected ${1:type} ${2:name};$0",
 		"description": "Java: Protected Field"
 	},
 
@@ -30,19 +30,19 @@
 
 	"java_shortStaticPublicField" : {
 		"prefix": "+$:",
-		"body": "public static ${1:type} ${2:name}",
+		"body": "public static ${1:type} ${2:name};$0",
 		"description": "Java: Public Static Field"
 	},
 
 	"java_shortStaticPrivateField" : {
 		"prefix": "-$:",
-		"body": "private static ${1:type} ${2:name}",
+		"body": "private static ${1:type} ${2:name};$0",
 		"description": "Java: Private Static Field"
 	},
 
 	"java_shortStaticProtectedField" : {
 		"prefix": "/$:",
-		"body": "protected static ${1:type} ${2:name}",
+		"body": "protected static ${1:type} ${2:name};$0",
 		"description": "Java: Protected Static Field"
 	},
 
@@ -52,19 +52,19 @@
 
 	"java_shortFinalPublicField" : {
 		"prefix": "+!:",
-		"body": "public final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "public final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Public Final Field"
 	},
 
 	"java_shortFinalPrivateField" : {
 		"prefix": "-!:",
-		"body": "private final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "private final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Private Final Field"
 	},
 
 	"java_shortFinalProtectedField" : {
 		"prefix": "/!:",
-		"body": "protected final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "protected final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Protected Final Field"
 	},
 
@@ -74,19 +74,19 @@
 
 	"java_shortStaticFinalPublicField" : {
 		"prefix": "+$!:",
-		"body": "public static final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "public static final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Public Static Final Field"
 	},
 
 	"java_shortStaticFinalPrivateField" : {
 		"prefix": "-$!:",
-		"body": "private static final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "private static final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Private Static Final Field"
 	},
 
 	"java_shortStaticFinalProtectedField" : {
 		"prefix": "/$!:",
-		"body": "protected static final ${1:type} ${2:NAME} = ${3:value}",
+		"body": "protected static final ${1:type} ${2:NAME} = ${3:value};$0",
 		"description": "Java: Protected Static Final Field"
 	},
 
