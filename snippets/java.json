@@ -6,19 +6,19 @@
 
 	"java_shortPublicField" : {
 		"prefix": "+:",
-		"body": "public ${1:type} ${2:name};$0",
+		"body": "public ${1:type} ${2:name} ${3:= ${4:value}};$0",
 		"description": "Java: Public Field"
 	},
 
 	"java_shortPrivateField" : {
 		"prefix": "-:",
-		"body": "private ${1:type} ${2:name};$0",
+		"body": "private ${1:type} ${2:name} ${3:= ${4:value}};$0",
 		"description": "Java: Private Field"
 	},
 
 	"java_shortProtectedField" : {
 		"prefix": "/:",
-		"body": "protected ${1:type} ${2:name};$0",
+		"body": "protected ${1:type} ${2:name} ${3:= ${4:value}};$0",
 		"description": "Java: Protected Field"
 	},
 
